@@ -1,5 +1,4 @@
 "use client";
-import { metadata } from "../layout";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
