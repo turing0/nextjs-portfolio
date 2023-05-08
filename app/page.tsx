@@ -4,6 +4,7 @@ import React from "react";
 const navigation = [
 	{ name: "Home", href: "https://laphel.com" },
 	{ name: "Projects", href: "/projects" },
+	{ name: "Channel", href: "/channel" },
 	{ name: "Contact", href: "/contact" },
 ];
 
