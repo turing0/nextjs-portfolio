@@ -1,6 +1,5 @@
 "use client";
 import Head from 'next/head';
-import { metadata } from '../layout';
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -34,7 +33,7 @@ export default function Example() {
 	return (
 		<div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
 			<Head>
-                <title>{metadata.title.template.replace('%s', pageTitle)}</title>
+                <title>pageTitle</title>
             </Head>
             <Navigation />
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
