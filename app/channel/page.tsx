@@ -1,5 +1,4 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -13,16 +12,17 @@ const socials = [
 		handle: "@HackandArt",
 	},
 	{
-		icon: <Mail size={20} />,
-		href: "mailto:none@laphel.com",
-		label: "Email",
-		handle: "none@laphel.com",
+		// icon: <Mail size={20} />,
+        icon: <img src="/telegram.svg" alt="Telegram" />,
+		href: "https://t.me/MastodonCollect",
+		label: "MastodonCollect",
+		handle: "@MastodonCollect",
 	},
 	{
-		icon: <Github size={20} />,
-		href: "https://github.com/turing0",
-		label: "Github",
-		handle: "turing0",
+		icon: <img src="/telegram.svg" alt="Telegram" />,
+		href: "https://t.me/WorldFeeds",
+		label: "Brief World",
+		handle: "@WorldFeeds",
 	},
 ];
 
