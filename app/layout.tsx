@@ -58,20 +58,12 @@ const calSans = LocalFont({
 
 export default function RootLayout({
 	children,
-	pageTitle,
 }: {
 	children: React.ReactNode;
-	pageTitle?: string;
 }) {
-	const title = pageTitle
-    ? metadata.title.template.replace("%s", pageTitle)
-    : metadata.title.default;
-
 	return (
 		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
-			<Head>
-				<title>{title}</title>
-			</Head>
+
 			<body
 				className={`bg-black ${
 					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
