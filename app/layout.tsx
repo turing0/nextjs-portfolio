@@ -1,4 +1,5 @@
 import "../global.css";
+import Head from "next/head";
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
@@ -62,7 +63,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
-
+			<Head>
+				<title>laphel.com</title>
+			</Head>
 			<body
 				className={`bg-black ${
 					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
