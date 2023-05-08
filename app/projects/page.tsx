@@ -21,7 +21,7 @@ export default async function ProjectsPage() {
 	}, {} as Record<string, number>);
 
 	const featured = allProjects.find(
-		(project) => project.slug === "planetfall",
+		(project) => project.slug === "activitypubproject",
 	)!;
 	const top2 = allProjects.find((project) => project.slug === "envshare")!;
 	const top3 = allProjects.find((project) => project.slug === "qstash")!;
@@ -87,9 +87,12 @@ export default async function ProjectsPage() {
 									{featured.description}
 								</p>
 								<div className="absolute bottom-4 md:bottom-8">
-								<p className="text-zinc-200 hover:text-zinc-50 hidden lg:block">
+									<Link
+										className="text-zinc-200 hover:text-zinc-50 hidden lg:block"
+										href={`/projects/${featured.slug}`}
+									>
 										Read more <span aria-hidden="true">&rarr;</span>
-									</p>
+									</Link>
 								</div>
 							</article>
 						</Link>
