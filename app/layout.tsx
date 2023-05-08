@@ -5,10 +5,10 @@ import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
-	title: {
-		default: "About - Laphel.com",
-		template: "%s | laphel.com",
-	},
+	// title: {
+	// 	default: "About - Laphel.com",
+	// 	template: "%s | laphel.com",
+	// },
 	description: "Software engineer at upstash.com and founder of planetfall.io",
 	openGraph: {
 		title: "laphel.com",
