@@ -5,7 +5,7 @@ import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 
-// const pageTitle = "Channel";
+const pageTitle = "Channel";
 
 const socials = [
 	{
@@ -31,7 +31,7 @@ const socials = [
 ];
 
 export default function Example() {
-    const pageTitle = "Channel";
+    
 
 	return (
 		<div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
