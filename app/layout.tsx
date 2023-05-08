@@ -1,5 +1,4 @@
 import "../global.css";
-import Head from "next/head";
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
