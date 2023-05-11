@@ -44,7 +44,7 @@ export default function Home() {
 					</Link>
 
 					<br />
-					and working on my projects 
+					and working on my projects{" "}
 					{/* and working on{" "}
 					<Link
 						target="_blank"
