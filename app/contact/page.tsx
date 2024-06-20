@@ -14,14 +14,14 @@ const socials = [
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:none@laphel.com",
+		href: "mailto:nlaphel@protonmail.com",
 		label: "Email",
-		handle: "none@laphel.com",
+		handle: "laphel@protonmail.com",
 	},
 	{
 		icon: <Github size={20} />,
 		href: "https://github.com/turing0",
-		label: "Github",
+		label: "GitHub",
 		handle: "turing0",
 	},
 ];
