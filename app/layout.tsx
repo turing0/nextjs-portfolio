@@ -9,11 +9,11 @@ export const metadata: Metadata = {
 		default: "About - Laphel.com",
 		template: "%s | laphel.com",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Nomad, Python, Nextjs, Web3, Crypto, Reading.",
 	openGraph: {
 		title: "laphel.com",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
+			"Nomad, Python, Nextjs, Web3, Crypto, Reading.",
 		url: "https://laphel.com",
 		siteName: "laphel.com",
 		images: [
