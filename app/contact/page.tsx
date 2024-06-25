@@ -14,7 +14,7 @@ const socials = [
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:nlaphel@protonmail.com",
+		href: "mailto:laphel@protonmail.com",
 		label: "Email",
 		handle: "laphel@protonmail.com",
 	},
