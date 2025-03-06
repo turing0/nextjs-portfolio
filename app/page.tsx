@@ -1,20 +1,21 @@
+import { navigationLinks } from "@/config/navigationConfig";
 import Link from "next/link";
 import React from "react";
 
-const navigation = [
-	{ name: "Home", href: "https://laphel.com" },
-	{ name: "Blog", href: "https://blog.laphel.com" },
-	{ name: "Projects", href: "/projects" },
-	{ name: "Channel", href: "/channel" },
-	{ name: "Contact", href: "/contact" },
-];
+// const navigation = [
+// 	{ name: "Home", href: "https://laphel.com" },
+// 	{ name: "Blog", href: "https://blog.laphel.com" },
+// 	{ name: "Projects", href: "/projects" },
+// 	{ name: "Channel", href: "/channel" },
+// 	{ name: "Contact", href: "/contact" },
+// ];
 
 export default function Home() {
 	return (
 		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
 			<nav className="my-16 animate-fade-in">
 				<ul className="flex items-center justify-center gap-4">
-					{navigation.map((item) => (
+					{navigationLinks.map((item) => (
 						<Link
 							key={item.href}
 							href={item.href}
