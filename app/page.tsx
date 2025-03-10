@@ -39,27 +39,18 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
-					Hi, this is Laphel, I'm building serverless and open source
-					organization at{" "}
+					Hi, this is Laphel, I'm building{" "}
 					<Link
 						target="_blank"
-						href="https://activitypubproject.github.io/"
+						href="https://mooncryp.to/"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						ActivitypubProject
+						MoonCrypto
 					</Link>
-
+					, a cryptocurrency website.
 					<br />
-					and working on my projects{" "}
-					{/* and working on{" "}
-					<Link
-						target="_blank"
-						href="https://planetfall.io"
-						className="underline duration-500 hover:text-zinc-300"
-					>
-						planetfall.io
-					</Link>{" "} */}
-					at night.
+					{/* and working on my projects{" "}
+					at night. */}
 				</h2>
 			</div>
 		</div>
