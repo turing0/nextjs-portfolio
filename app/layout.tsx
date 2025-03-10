@@ -62,7 +62,14 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
-
+			<head>
+			<script 
+				defer 
+				src="https://cloud.umami.is/script.js" 
+				data-website-id="6ba7be75-6179-40f4-bec8-dd2d5e8d66a2"
+				data-domains="about.laphel.com"
+			></script>
+			</head>
 			<body
 				className={`bg-black ${
 					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
