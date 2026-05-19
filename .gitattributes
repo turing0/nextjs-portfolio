@@ -1,0 +1,4 @@
+# Content files are parsed by contentlayer, whose 0.3.x frontmatter parser
+# does not tolerate CRLF. Force LF on checkout regardless of core.autocrlf.
+*.mdx text eol=lf
+*.md  text eol=lf
